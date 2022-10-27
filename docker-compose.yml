@@ -18,6 +18,7 @@ services:
       - DB_DATABASE=${DB_NAME}
       - DB_USERNAME=${DB_USER}
       - DB_PASSWORD=${DB_PASS}
+      - PHP_IDE_CONFIG=serverName=docker
 
   db:
     build:
